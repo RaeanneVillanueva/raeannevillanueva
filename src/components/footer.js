@@ -13,7 +13,7 @@ const Footer = () => (
     <div className="footer-info">
       <Socials />
       <span className="footer-credits">
-        © 2020 Rae V. | Authored by Bored Me
+        © 2020 Rae V. | Deployed using Vercel
       </span>
     </div>
   </div>
