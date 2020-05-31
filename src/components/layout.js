@@ -7,38 +7,49 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import "bootstrap/dist/css/bootstrap.min.css"
 
-import Header from "./header"
-import "./layout.css"
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { fab } from "@fortawesome/free-brands-svg-icons"
+import { faStar, faCircle } from "@fortawesome/free-solid-svg-icons"
+
+// import { useStaticQuery, graphql } from "gatsby"
+import Header from "../components/header"
+import VerticalNav from "../components/nav"
+import Footer from "./footer"
+import "../assets/layout.css"
+import "../assets/style.css"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  library.add(fab, faStar, faCircle)
+
+  // const data = useStaticQuery(graphql`
+  //   query SiteTitleQuery {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <link rel="stylesheet" type="text/css" href="fullpage.css" />
+      <link rel="stylesheet" href="https://use.typekit.net/jxo3qiy.css"></link>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      ></link>
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
         }}
       >
+        <Header />
+        <VerticalNav />
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <Footer />
       </div>
     </>
   )

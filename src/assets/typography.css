@@ -1,0 +1,35 @@
+@font-face {
+  font-family: segoe-script;
+  src: url(./fonts/segoe_script.ttf);
+}
+
+@font-face {
+  font-family: bradley;
+  src: url(./fonts/bradley-hand-itc.ttf);
+}
+
+.ernie-font {
+  font-family: adobe-handwriting-ernie, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #595656;
+  margin: 10px 0px;
+}
+
+.bradley-font {
+  font-family: bradley;
+  font-size: 12pt;
+  color: #494848;
+}
+
+@media only screen and (max-width: 768px) {
+  .h1-size {
+    font-size: 30pt;
+  }
+
+  .segoe-font {
+    font-family: segoe-script;
+    font-size: 10pt;
+    color: #595656;
+  }
+}

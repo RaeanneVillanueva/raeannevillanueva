@@ -41,11 +41,14 @@ template {
 }
 a {
   background-color: transparent;
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: none;
+  color: #7ec5bf;
 }
 abbr[title] {
   border-bottom: none;
@@ -211,6 +214,7 @@ body {
 }
 img {
   max-width: 100%;
+  height: auto;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -218,7 +222,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 h1 {
   margin-left: 0;
@@ -315,8 +318,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -adobe-handwriting-ernie, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -615,6 +617,23 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+#style-4::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  background-color: #c0e7e4;
+  border-radius: 5px;
+}
+
+#style-4::-webkit-scrollbar {
+  width: 7px;
+  background-color: #f5f5f5;
+}
+
+#style-4::-webkit-scrollbar-thumb {
+  background-color: #93cec9;
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
