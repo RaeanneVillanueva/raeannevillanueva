@@ -73,7 +73,7 @@
   position: absolute;
   width: 180px;
   height: 180px;
-  bottom: 25%;
+  bottom: 0%;
   left: 76%;
 }
 
@@ -279,8 +279,8 @@
   .hero-vector {
     width: 100px;
     height: 100px;
-    bottom: 70%;
-    left: 56%;
+    bottom: 60%;
+    left: 52%;
   }
 
   .socials-icon {
@@ -386,9 +386,17 @@
 }
 
 @media only screen and (max-width: 400px) {
+  .hero-vector {
+    width: 100px;
+    height: 100px;
+    bottom: 60%;
+    left: 52%;
+  }
+
   .header-nav {
     display: none;
   }
+
   .about-bg {
     height: 80%;
   }
