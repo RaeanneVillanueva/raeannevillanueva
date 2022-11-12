@@ -102,7 +102,7 @@
 .about-div {
   display: flex;
   align-items: center;
-  padding: 4% 10%;
+  justify-content: center;
 }
 
 .about-bg {
@@ -113,14 +113,18 @@
     url("../assets/img/leafy-bg.jpg");
   position: relative;
   width: 700px;
-  height: 88%;
+  height: 65%;
   object-fit: cover;
   border-radius: 5px;
 }
 
 .about-content {
   position: absolute;
-  margin: 38px 40px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   padding: 30px;
   width: 600px;
   height: 340px;
@@ -150,8 +154,7 @@
 }
 
 .about-code {
-  height: 240px;
-  width: 400px;
+  width: 275px;
   margin: 0px 60px;
 }
 
@@ -267,7 +270,40 @@
   position: relative;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1024px) { 
+
+  .about-vectors {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 858px) {
+
+  .skills-content {
+    flex-direction: column;
+  }
+
+  .skills-icon-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    overflow-y: auto;
+  }
+
+  .skills-description {
+    display: none;
+  }
+
+  .skills-mobile-desc {
+    display: flex;
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
   .nav-items {
     font-size: 8pt;
   }
@@ -276,15 +312,12 @@
     height: 95vh;
   }
 
-  .hero-vector {
-    width: 100px;
-    height: 100px;
-    bottom: 60%;
-    left: 52%;
-  }
-
   .socials-icon {
     font-size: 20pt;
+  }
+
+  .about-vectors {
+    display: none;
   }
 
   .about-div {
@@ -335,7 +368,6 @@
 
   .skills-div {
     padding: 20% 0% 0%;
-    background: url("../assets/img/skills.png") no-repeat;
   }
 
   .skills-content {
@@ -357,7 +389,7 @@
 
   .skills-mobile-desc {
     display: flex;
-    padding: 15px;
+    /* padding: 15px; */
   }
 
   .mobile-resume-btn {
@@ -385,12 +417,23 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 689px) {
   .hero-vector {
     width: 100px;
     height: 100px;
     bottom: 60%;
-    left: 52%;
+    left: 57%;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+
+  
+  .hero-vector {
+    width: 100px;
+    height: 100px;
+    bottom: 60%;
+    left: 57%;
   }
 
   .header-nav {
@@ -402,8 +445,12 @@
   }
 
   .skills-div {
-    padding: 30% 0% 0%;
-    background: url("../assets/img/skills.png") no-repeat;
+    padding: 50% 0% 0%;
+    /* background: url("../assets/img/skills.png") no-repeat; */
+  }
+
+  .skills-content {
+    justify-content: flex-start;
   }
 
   .skills-icon-div {

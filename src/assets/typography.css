@@ -25,6 +25,7 @@
 @media only screen and (max-width: 768px) {
   .h1-size {
     font-size: 30pt;
+    width: 100%;
   }
 
   .segoe-font {

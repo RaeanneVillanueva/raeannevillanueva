@@ -14,7 +14,7 @@ const SkillsSection = () => (
   <div className="skills-div main-div">
     <h2 className="ernie-font skills-mobile-label">My Skills</h2>
 
-    <p className="skills-mobile-desc bradley-font">
+    <p className="skills-mobile-desc bradley-font m-0">
       Here are some of the frameworks I used throughout my college years that
       helped build my knowledge towards web designing and the level of my
       expertise on each of them.
