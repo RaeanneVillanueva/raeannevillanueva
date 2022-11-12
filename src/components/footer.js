@@ -9,8 +9,8 @@ const scrollToTop = () => {
 
 const Footer = () => (
   <div className="footer-div">
-    <a href={scrollToTop} onClick={scrollToTop} onKeyDown={scrollToTop}>
-      <img alt="logo" src={logo} className="footer-logo" />
+    <a className="footer-logo" href={scrollToTop} onClick={scrollToTop} onKeyDown={scrollToTop}>
+      <img alt="logo" src={logo} />
     </a>
     <div className="footer-info">
       <Socials />
