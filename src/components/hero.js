@@ -12,7 +12,7 @@ const HeroSection = () => (
         </ScrollAnimation>
       </div>
       <ScrollAnimation animateIn="fadeIn">
-        <h1 className="ernie-font h1-size text-center">Raeanne Villanueva</h1>
+        <h1 className="h1-size text-center">Raeanne Villanueva</h1>
       </ScrollAnimation>
     </div>
     <div className="hero-socials">

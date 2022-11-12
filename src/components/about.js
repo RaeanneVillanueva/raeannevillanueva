@@ -7,18 +7,14 @@ const AboutSection = () => (
   <div className="about-div main-div">
     <div className="about-bg">
       <div className="about-content">
-        <h1 className="ernie-font">About me ...</h1>
-        <p className="bradley-font about-p">
-          I am a junior computer science student who aims to apply my knowledge
-          of web development and software programming through garnering
-          experience, with a strong passion to improve and to further enhance my
-          skill set.
-        </p>
-        <p className="bradley-font about-p">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et doloremagna aliqua.
+        <h1>About me ...</h1>
+        <p className="about-p">
+          I am currently a junior frontend developer seeking for an opportunity to surround myself in a creative and open
+          environment that would provide guidance and motivation for me to achieve success in my career.
+          <br></br><br></br>
+          Within a year of working, my tasks revolves around creating and developing user-friendly designs. I am also responsible
+          in proposing UI improvements and designing mockups and assets. I easily learned and adapted to tools and frameworks
+          used, to which allowed my capabilities to immediately bring business value.
         </p>
       </div>
       <div className="about-vectors">

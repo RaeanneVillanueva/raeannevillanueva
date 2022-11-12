@@ -4,8 +4,8 @@ import "../assets/typography.css"
 
 const PortfolioPage = () => (
   <Layout>
-    <h1 className="ernie-font">This is my portfolio...</h1>
-    <p className="segoe-font">
+    <h1 className="">This is my portfolio...</h1>
+    <p className="">
       Check out my creations that I worked hard for and studied very hard for!
     </p>
   </Layout>

@@ -29,15 +29,6 @@ const skills = [
   </div>,
   <div>
     <FontAwesomeIcon
-      style={{ color: "#356B99" }}
-      className="skills-icons"
-      icon={["fab", "python"]}
-    />
-    <Rating rating="3" />
-  </div>,
-
-  <div>
-    <FontAwesomeIcon
       style={{ color: "#DE4B25" }}
       className="skills-icons"
       icon={["fab", "html5"]}
@@ -65,15 +56,6 @@ const skills = [
 
   <div>
     <FontAwesomeIcon
-      style={{ color: "#262626" }}
-      className="skills-icons"
-      icon={["fab", "figma"]}
-    />
-    <Rating rating="4" />
-  </div>,
-
-  <div>
-    <FontAwesomeIcon
       style={{ color: "#5ADAFD" }}
       className="skills-icons"
       icon={["fab", "react"]}
@@ -87,7 +69,7 @@ const skills = [
       className="skills-icons"
       icon={["fab", "vuejs"]}
     />
-    <Rating rating="3" />
+    <Rating rating="4" />
   </div>,
 
   <div>
@@ -97,6 +79,15 @@ const skills = [
       icon={["fab", "bootstrap"]}
     />
     <Rating rating="5" />
+  </div>,
+
+  <div>
+    <FontAwesomeIcon
+      style={{ color: "#262626" }}
+      className="skills-icons"
+      icon={["fab", "figma"]}
+    />
+    <Rating rating="4" />
   </div>,
 ]
 

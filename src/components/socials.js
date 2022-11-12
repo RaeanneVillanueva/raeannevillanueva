@@ -5,9 +5,9 @@ import { Popover, OverlayTrigger } from "react-bootstrap"
 const popover = content => (
   <Popover
     style={{
-      fontFamily: "bradley",
+      fontFamily: "lato",
       color: "#595656",
-      fontWeight: "bold",
+      fontWeight: "light",
       border: "#FFFFFF",
     }}
   >
