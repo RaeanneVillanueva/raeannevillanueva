@@ -31,6 +31,7 @@
     "react-rainbow-components": "^1.15.0",
     "react-scroll": "^1.7.16"
   },
+  "engines": { "node": "16.x" },
   "devDependencies": {
     "prettier": "2.0.5"
   },
