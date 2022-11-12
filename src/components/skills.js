@@ -1,7 +1,6 @@
 import React from "react"
 import skills from "../data/skills"
 import resume from "../data/resume.pdf"
-import { Animated } from "react-animated-css"
 import ScrollAnimation from "react-animate-on-scroll"
 
 const skillsList = skills.map((item, index) => (
@@ -34,14 +33,14 @@ const SkillsSection = () => (
           >
             View Resume
           </a>
-          <a
+          {/* <a
             className="skills-btn mx-2"
             // href={r
             target="_blank"
             rel="noopener noreferrer"
           >
             View Portfolio
-          </a>
+          </a> */}
         </ScrollAnimation>
       </div>
     </div>
