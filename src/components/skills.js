@@ -12,36 +12,36 @@ const skillsList = skills.map((item, index) => (
 const SkillsSection = () => (
   <div className="skills-div main-div">
     <div className="skills-content align-items-center">
-      <div className="skills-icon-div py-2" id="style-4">
+      <div className="skills-icon-div py-3" id="style-4">
         {skillsList}
       </div>
 
-      <div className="skills-description py-3">
+      <div className="skills-description py-3 py-sm-0">
         <h2>My Skills</h2>
 
         <ScrollAnimation animateIn="fadeIn">
-          <p className="lato-light">      
+          <p>      
             Here are some of the frameworks I know. Expect the list to expand as I explore new frameworks.
             Feel free to view my resume for more information about me!
             You can also check my curated portfolio.
           </p>
-          <a
-            className="skills-btn"
+        </ScrollAnimation>
+
+        <a
+            className="skills-btn lato-regular"
             href={resume}
             target="_blank"
             rel="noopener noreferrer"
           >
             View Resume
           </a>
-          {/* <a
-            className="skills-btn mx-2"
-            // href={r
-            target="_blank"
+          <a
+            className="skills-btn mx-2 lato-regular"
+            href="/portfolio"
             rel="noopener noreferrer"
           >
             View Portfolio
-          </a> */}
-        </ScrollAnimation>
+          </a>
       </div>
     </div>
   </div>

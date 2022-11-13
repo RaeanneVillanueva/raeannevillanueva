@@ -12,6 +12,7 @@
   position: fixed;
   justify-content: flex-end;
   background: transparent;
+  gap: 30px;
 }
 
 .header-item {
@@ -52,13 +53,13 @@
 }
 
 .nav-items:hover {
-  color: #7ec5bf;
+  /* color: #7ec5bf; */
   cursor: pointer;
 }
 
 .hero-div {
   position: relative;
-  background: url("../assets/img/hero_bg.png") no-repeat center;
+  background: url("../assets/img/hero_bg.png") no-repeat bottom;
   background-size: cover;
 }
 
@@ -218,10 +219,9 @@
 .skills-btn {
   border: none;
   font-size: 10pt;
-  /* font-family: bradley; */
   border-radius: 8px;
   padding: 10px 15px;
-  color: #eeeee7;
+  color: white;
   background-color: #65b3ab;
   font-weight: 600;
   transition-duration: 0.5s;
@@ -242,7 +242,7 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  top: -40%;
+  top: -30%;
   cursor: pointer;
   border-radius: 50px;
   border: 3px #ffffff solid;
@@ -384,6 +384,13 @@
     bottom: 60%;
     left: 57%;
   }
+
+  .header-nav {
+    transform: translate(-50%, 0%);
+    padding: 40px 0;
+    left: 50%;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 575.98px) {
@@ -397,7 +404,14 @@
   }
 
   .header-nav {
-    display: none;
+    transform: translate(-50%, 0%);
+    padding: 40px 0;
+    left: 50%;
+    justify-content: space-evenly;
+    background: #ffffffcc;
+    width: 100%;
+    padding: 18px 0;
+    gap: 0;
   }
 
   .about-bg {

@@ -1,0 +1,46 @@
+.filler {
+  height: 80px;
+  width: 100%;
+}
+
+/* .parallax {  
+  clip-path: inset(0);
+  height: 37.5rem;
+}
+
+.carousel-img {
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.carousel-header {
+  height: 40%;
+} */
+
+.title-page {
+  background: url("../assets/img/hero_bg.png") no-repeat center bottom;
+  background-size: cover;
+  height: 250px;
+}
+
+.portfolio-section {
+  gap: 50px;
+  height: fit-content;
+}
+
+.kunboys-section {
+  background-color: #f6f6f6;
+}
+
+.section-desc {
+  max-width: 400px;
+}
+
+.img-wrapper {
+  max-width: 500px;
+}
+.section-img {
+  width: 100%;
+}
